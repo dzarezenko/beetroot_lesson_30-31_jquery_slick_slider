@@ -5,8 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 <body>
-  
+  <section>
+    <p id="content">
+      Some text <a href="#">and a link</a>
+    </p>
+    <p></p>
+    <p></p>
+  </section>
+  <script type="text/javascript">
+    //console.log(document);
+    //console.log($(document));
+    $(() => {
+      $("#content").css({
+        color: "red",
+        textDecoration: "underline",
+      });
+      console.log($("#content").attr("style"));
+      //$("#content").attr("style", "color: blue;")
+      $("#content").css("color", "blue");
+    });
+  </script>
 </body>
 </html>
