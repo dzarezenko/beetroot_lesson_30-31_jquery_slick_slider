@@ -5,12 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Slick Slider</title>
+  <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick-theme.css"/>
 </head>
 <body>
   <div class="slider">
-    <div>Slide 1</div>
-    <div>Slide 2</div>
-    <div>Slide 3</div>
+    <div>
+      <img src="https://via.placeholder.com/300x150.png?text=Slide 1" />
+    </div>
+    <div>
+      <img src="https://via.placeholder.com/300x150.png?text=Slide 2" />
+    </div>
+    <div>
+      <img src="https://via.placeholder.com/300x150.png?text=Slide 3" />
+    </div>
   </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="node_modules/slick-carousel/slick/slick.min.js"></script>
+  <script>
+    $(() => {
+      $('.slider').slick();
+    });
+  </script>
 </body>
 </html>
