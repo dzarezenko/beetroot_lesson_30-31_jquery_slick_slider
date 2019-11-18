@@ -1,0 +1,23 @@
+{
+  "name": "beetroot_lesson_31-32_jquery_slick_slider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzarezenko/beetroot_lesson_31-32_jquery_slick_slider.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dzarezenko/beetroot_lesson_31-32_jquery_slick_slider/issues"
+  },
+  "homepage": "https://github.com/dzarezenko/beetroot_lesson_31-32_jquery_slick_slider#readme"
+}
